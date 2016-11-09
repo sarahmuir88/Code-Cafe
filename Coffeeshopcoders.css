@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-	<style>
-		header {
+		body {
 			color: white;
-			font-family: 'Courgette', cursive;;
 			text-align: center;
-			background: url("http://img04.deviantart.net/dd7c/i/2015/010/0/3/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg");
+			background-image: url("http://img04.deviantart.net/dd7c/i/2015/010/0/3/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg");
 		}
-		#nav {
+		ul.nav li{
 			padding: 10px
-			background: brown;
+			text-color: white;
 		}
 		li {
 			display: inline;
 			padding: 0px 20px 0px 20px;
+			background-color: : white;
 		}
-	</style>
-		
+		a{
+			color: white;
+			text-decoration: none;
+		}
