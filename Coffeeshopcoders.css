@@ -1,6 +1,7 @@
 		body {
 			color: white;
 			text-align: center;
+			font-family: 'Courgette', cursive; 
 			background-image: url("http://img04.deviantart.net/dd7c/i/2015/010/0/3/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg");
 		}
 		ul.nav li{
@@ -16,3 +17,4 @@
 			color: white;
 			text-decoration: none;
 		}
+		
