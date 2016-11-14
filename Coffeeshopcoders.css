@@ -1,5 +1,5 @@
 		h1 {
-			font-size: 20px;
+			font-size: 50px;
 		}
 		body {
 			color: white;
@@ -8,8 +8,9 @@
 			background-image: url("http://img04.deviantart.net/dd7c/i/2015/010/0/3/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg");
 		}
 		ul.nav li{
-			padding: 20px;
+			padding: 10px 20px 10px 20px;
 			text-color: white;
+			font-size: 30px;
 
 		}
 		li {
