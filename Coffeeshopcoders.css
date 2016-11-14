@@ -1,3 +1,6 @@
+		h1 {
+			font-size: 20px;
+		}
 		body {
 			color: white;
 			text-align: center;
@@ -5,8 +8,9 @@
 			background-image: url("http://img04.deviantart.net/dd7c/i/2015/010/0/3/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg");
 		}
 		ul.nav li{
-			padding: 10px
+			padding: 20px;
 			text-color: white;
+
 		}
 		li {
 			display: inline;
