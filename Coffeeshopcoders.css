@@ -17,7 +17,7 @@ ul {
 	overflow: hidden;
 	margin: 0;
 }
-ul.nav li{
+ul.navigate li{
 	padding: 10px 20px 10px 20px;
 	color: white;
 	font-size: 30px;
@@ -25,11 +25,11 @@ ul.nav li{
 }
 li {
 	display: inline;
-	margin: 0px 20px 0px 20px;
 }
 a{
 	color: white;
 	text-decoration: none;
+	padding: 10px 20px 10px 20px;
 }
 #welcome {
 	font-size: 40px;
@@ -47,8 +47,10 @@ footer {
 			font-size:48px; 
 			color:white;
 			width: 35px;
-			padding: 20px 10px 20px;
+			padding: 20px 10px 20px 10px;
 			display: inline;
+			margin: 0px 10px 0px 10px;
+}
 }
 @media (max-width: 500px) {
   h1 {
