@@ -6,7 +6,7 @@ $(document).ready(function() {
 			$(this).css("background-color", "rgba(0, 0, 0, 0.0");
 			$(this).css("color", "white");
 		});
-	$("li #locations").hover(function(){
+	$("li #sessions").hover(function(){
 			$(this).css("background-color", "black");
 			$(this).css("color", "white");
 		}, function(){
@@ -38,3 +38,6 @@ $(document).ready(function() {
 			$(this).css("background-color", "rgba(0, 0, 0, 0.0");
 		});
 });
+
+			
+

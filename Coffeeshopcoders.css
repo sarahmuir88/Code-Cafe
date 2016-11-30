@@ -1,29 +1,32 @@
 h1 {
 	font-size: 80px;
+	margin: 10px;
 }
 body {
 	color: white;
 	text-align: center;
-	background-image: url("http://img04.deviantart.net/dd7c/i/2015/010/0/3/chalkboard_texture_mc2015_by_mattiamc-d8dbnac.jpg");
+	background-color: #003333;
 	background-size: cover;
+}
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
 }
 .courgette {
 	font-family: 'Courgette', cursive;
 }
-ul {
+ul.navigate {
 	background-color: rgba(0, 0, 0, 0.6);
-	padding: 10px;
+	padding: 10px 0px 10px 0px;
 	width: 100%;
 	overflow: hidden;
 	margin: 0;
+	border-radius: 20px;
 }
 ul.navigate li{
 	padding: 10px 20px 10px 20px;
 	color: white;
 	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
-}
-li {
 	display: inline;
 }
 a{
@@ -31,34 +34,67 @@ a{
 	text-decoration: none;
 	padding: 10px 20px 10px 20px;
 }
+#coffeeshop-sign {
+	border-radius: 20px;
+	width: 640px;
+	height: 500px;
+	float: left;
+	margin: 40px 10px 20px 40px;
+}
 #welcome {
-	font-size: 40px;
-	margin: 30px 0px 10px 0px;
+	float: right;
+	width: 750px;
+	height: 300px;
+	margin: 20px 10px 20px 30px;
+}
+#centre {
+	text-align: center;
+	font-size: 35px;
+}
+#bulletpoint {
+	width: 700px;
+	margin: auto;
+	text-align: left;
+	font-size: 25px;
 	position: left;
 }
-#about {
-	font-family: 'Montserrat', sans-serif;
-}
 img#stamp {
-	max-width: 400px;
+	max-width: 100px;
 	border-radius: 500px;
+	margin: -300px 20px 20px 1200px;
+	float: bottom;
+}
+#map {
+	float: left;
+	border-radius: 20px;
+	margin: 20px 10px 20px 30px;
+}
+#session-form {
+	float: right;
+	border-radius:20px;
+	margin: 20px 10px 20px 30px;
 }
 footer {
-			font-size:48px; 
-			color:white;
-			width: 35px;
-			padding: 20px 10px 20px 10px;
-			display: inline;
-			margin: 0px 10px 0px 10px;
+	font-size:48px; 
+	color:white;
+	width: 35px;
+	padding: 20px 10px 20px 10px;
+	display: inline;
+	margin: 20px 10px 20px 10px;
+	position: ;
 }
+#contact-form {
+	margin: 20px;
 }
-@media (max-width: 500px) {
+@media screen and (max-width:320px) {
   h1 {
-    font-size: 36px;
+    font-size: 25px;
   }
 li {
     display: block;
-    padding: 5px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
   }
 body {
   	background-image: cover;
