@@ -81,7 +81,17 @@ footer {
 	padding: 20px 10px 20px 10px;
 	display: inline;
 	margin: 20px 10px 20px 10px;
-	position: ;
+	text-align: center;
+}
+#footer {
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
 }
 #contact-form {
 	margin: 20px;
@@ -99,4 +109,3 @@ li {
 body {
   	background-image: cover;
   }
-}
