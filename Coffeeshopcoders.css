@@ -40,9 +40,10 @@ a{
 }
 #coffeeshop-sign {
 	border-radius: 20px;
-	width: 640px;
-	height: 500px;
-	margin: 0 auto 0 auto;
+	width: 540px;
+	height: 400px;
+	margin: 20px 20px 20px 90px;
+	float: left;
 }
 #aboutimages {
 	position: relative;
@@ -63,11 +64,12 @@ a{
 	margin-right: auto;
     border-radius: 50%
 }
-
 #welcome {
 	width: 750px;
 	height: 300px;
-	margin: 0 auto 0 auto;
+	margin: 20px;
+	float: right;
+	padding: 20px;
 }
 #centre {
 	text-align: center;
@@ -80,11 +82,10 @@ a{
 	font-size: 20px;
 	position: left;
 }
-img#stamp {
-	max-width: 100px;
-	border-radius: 500px;
-	margin: -300px 20px 20px 1200px;
-	float: bottom;
+div#us {
+	font-size: 30px;
+	text-align: center;
+	width: 700px;
 }
 #map {
 	float: left;
@@ -113,10 +114,11 @@ position: absolute;
   padding: 1rem;
   text-align: center;
 }
-
-}
 #contact-form {
 	margin: 20px;
+}
+fieldset {
+	border-radius: 20px;
 }
 @media screen and (max-width:320px) {
   h1 {
